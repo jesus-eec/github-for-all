@@ -6,9 +6,9 @@ name: Hola al Git Bootcamp
 on: 
   workflow_dispatch:
 
-  job:
-    hola:
-      runs-on: ubuntu-linux
-      steps:
-        - name: Decir hola en una sola linea de script
-          run: echo Hola, administradores de Git!
+jobs:
+  hola:
+    runs-on: ubuntu-linux
+    steps:
+      - name: Decir hola en una sola linea de script
+        run: echo Hola, administradores de Git!
