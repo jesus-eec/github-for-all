@@ -8,7 +8,7 @@ on:
 
 jobs:
   hola:
-    runs-on: ubuntu-linux
+    runs-on: self-hosted
     steps:
       - name: Decir hola en una sola linea de script
         run: echo Hola, administradores de Git!
