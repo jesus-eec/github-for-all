@@ -1,0 +1,14 @@
+# This is a basic workflow to help you get started with Actions
+
+name: Hola al Git Bootcamp
+
+# Controls when the workflow will run
+on: 
+  workflow_dispatch:
+
+  jobs:
+    hola:
+      runs-on: ubuntu-linux
+      steps:
+        - name: Decir hola en una sola linea de script
+          run: echo Hola, administradores de Git!
